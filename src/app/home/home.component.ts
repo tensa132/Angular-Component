@@ -15,5 +15,4 @@ export class HomeComponent implements OnInit {
     let id = this.route.snapshot.paramMap.get('id');
     this.idVarPass = id;
   }
-
 }
